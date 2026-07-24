@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    char pattern;
+    int pin;
+    scanf(" %c",&pattern);
+    if(pattern=='Y'|| pattern=='y'){
+        printf("%d",&pin);
+        if(pin==1234){
+            printf("Mobile Unlocked");
+        }
+        else(printf("Incorrect pin!"));
+    }else(printf("Incorrect Pattern"));
+    return 0;
+    
+}
