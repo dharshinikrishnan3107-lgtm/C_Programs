@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int age;
+    char license;
+    scanf("%d",&age);
+    printf("Enter license(Y/N):");
+    scanf(" %c",&license);
+    if(age>=18){
+        if(license =='Y' || license =='y'){
+            printf("Eligible to drive");
+        }
+    }
+    else(printf("Not Eligible to drive"));
+
+    return 0;
+}
