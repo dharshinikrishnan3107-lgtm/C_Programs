@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int attendance,marks;
+    scanf("%d%d",&attendance,&marks);
+    if(attendance>=75){
+        if(marks>=35){
+            printf("Exam result:Pass");
+        }
+    }
+    else(printf("Exam result:Fail"));
+    return 0;
+}
