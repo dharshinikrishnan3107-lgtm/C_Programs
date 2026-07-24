@@ -1,14 +1,13 @@
 #include <stdio.h>
-
 int main()
 {
-    int a;
-    scanf("%d", &a);
-    printf("a += 5 = %d\n", a += 5);
-    printf("a -= 5 = %d\n", a -= 5);
-    printf("a *= 5 = %d\n", a *= 5);
-    printf("a /= 5 = %d\n", a /= 5);
-    printf("a %= 5 = %d\n", a %= 5);
+    int a, b;
+    scanf("%d%d", &a, &b);
+    printf("a += b = %d\n", a += b);
+    printf("a -= b = %d\n", a -= b);
+    printf("a *= b = %d\n", a *= b);
+    printf("a /= b = %d\n", a /= b);
+    printf("a %= b = %d\n", a %= b);
 
     return 0;
 }
