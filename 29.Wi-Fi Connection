@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    char wifi;
+    int password;
+    scanf(" %c",&wifi);
+    if(wifi=='y' || wifi=='Y'){
+        scanf("%d",&password);
+        if(password==12345){
+            printf("Wifi Connected");
+        }else(printf("Incorrect Password"));
+    }else(printf("Not Connected to Wifi"));
+    
+    return 0;
+    
+}
