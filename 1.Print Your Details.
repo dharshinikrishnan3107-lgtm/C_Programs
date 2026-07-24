@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[50];
+    int age;
+    float height;
+    char gender;
+    
+     scanf("%s", &name);
+     scanf("%d", &age);
+     scanf(" %f", &height);
+     scanf(" %c", &gender);
+     
+    return 0;
+}
