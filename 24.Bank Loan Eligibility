@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int age,monthly_salary;
+    scanf("%d%d",&age,&monthly_salary);
+    if(age>=21){
+        if(monthly_salary>=30000){
+            printf("Eligible for loan");
+        }
+    }
+    else(printf("Not Eligible for loan"));
+
+    return 0;
+}
