@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    int a,b,Sum,Difference,Product,Quotient,Remainder;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    Sum=a+b;
+    Difference=a-b;
+    Product=a*b;
+    Quotient=a/b;
+    Remainder=a%b;
+    printf("%d\n",Sum);
+    printf("%d\n",Difference);
+    printf("%d\n",Product);
+    printf("%d\n",Quotient);
+    printf("%d\n",Remainder);
+    
+    
+    return 0;
+}
