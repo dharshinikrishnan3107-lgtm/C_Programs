@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,choice;
+    scanf("%d%d",&a,&choice);
+    switch(choice){
+        case 1:
+        if(a%2==0){
+           printf("Even"); 
+        }
+        else(printf("Odd"));
+        break;
+        case 2:
+        if(a>0){
+            printf("Positive");
+        }else{
+            printf("Negative");
+        }
+        break;
+        case 3:
+        printf("Square:%d",a*a);
+        break;
+        case 4:
+        printf("Cube:%d",a*a*a);
+        break;
+       
+    }
+
+    return 0;
+}
