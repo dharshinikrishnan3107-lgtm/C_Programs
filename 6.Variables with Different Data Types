@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int rollno;
+    char name[50];
+    int age;
+    float height;
+    char gender;
+     scanf(" %d", &rollno);
+     scanf(" %s", &name);
+     scanf("%d", &age);
+     scanf(" %f", &height);
+     scanf(" %c", &gender);
+     
+    return 0;
+}
