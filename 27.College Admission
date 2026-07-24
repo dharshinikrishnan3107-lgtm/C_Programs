@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int marks;
+    scanf("%d",&marks);
+    if(marks>=60){
+        printf("Entrance Exam status:Pass");
+    }
+    else(printf("Entrance Exam status:Fail"));
+    
+   
+    return 0;
+}
