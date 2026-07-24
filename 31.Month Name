@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main()
+{
+    int month;
+    scanf("%d",&month);
+    switch(month){
+        case 1:
+        printf("January",1);
+        break;
+        case 2:
+        printf("February",2);
+        break;
+        case 3:
+        printf("March",3);
+        break;
+        case 4:
+        printf("April",4);
+        break;
+        case 5:
+        printf("May",5);
+        break;
+        case 6:
+        printf("June",6);
+        break;
+        case 7:
+        printf("July",7);
+        break;
+        case 8:
+        printf("August",8);
+        break;
+        case 9:
+        printf("September",9);
+        break;
+        case 10:
+        printf("October",10);
+        break;
+        case 11:
+        printf("November",11);
+        break;
+        case 12:
+        printf("December",12);
+        break;
+    }
+    
+    return 0;
+    
+}
