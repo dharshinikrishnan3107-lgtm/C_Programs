@@ -1,0 +1,13 @@
+Take a character and print its ASCII value as a float.
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    float b=a;
+    printf("%f",b);
+    
+    return 0;
+}
