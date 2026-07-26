@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char a,next_character,previous_character;
+    scanf("%c",&a);
+    next_character=a+1;
+    previous_character=a-1;
+    printf("%c %c", next_character,previous_character);
+    
+    return 0;
+}
