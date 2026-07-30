@@ -6,8 +6,10 @@ int main()
 {
    int even=1;
    while(even<=100){
-       printf("%d\n",even);
-       even++;
+       if(even%2==0){
+          printf("%d\n",even);
+       }
+       even++; 
    }
    return 0;
 }
