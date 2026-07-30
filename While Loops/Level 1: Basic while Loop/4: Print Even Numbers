@@ -1,0 +1,13 @@
+Print even numbers from 1 to 100.
+
+#include <stdio.h>
+
+int main()
+{
+   int even=1;
+   while(even<=100){
+       printf("%d\n",even);
+       even++;
+   }
+   return 0;
+}
