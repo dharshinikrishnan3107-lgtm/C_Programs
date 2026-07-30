@@ -1,0 +1,15 @@
+Print multiples of 5 from 1 to 100.
+
+#include <stdio.h>
+
+int main()
+{
+   int multiple=1;
+   while(multiple<=100){
+       if(multiple%5==0){
+          printf("%d\n",multiple);
+       }
+       multiple++; 
+   }
+   return 0;
+}
