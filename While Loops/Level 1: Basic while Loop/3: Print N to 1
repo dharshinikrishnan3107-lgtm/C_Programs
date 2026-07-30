@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+   int Num;
+   scanf("%d",&Num);
+   while(Num>=1){
+       printf("Num=%d\n",Num);
+       Num--;
+   }
+   return 0;
+}
+
