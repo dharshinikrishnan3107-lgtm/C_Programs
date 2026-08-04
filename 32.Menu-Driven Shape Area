@@ -6,7 +6,7 @@ int main()
     scanf("%d%d%d",&a,&b,&choice);
     switch(choice){
         case 1:
-        printf("1.Circle:%d\n",a*b*b);
+        printf("1.Circle:%d\n",3.14*a*a);
         break;
         case 2:
         printf("2.Rectangle:%d\n",a*b);
