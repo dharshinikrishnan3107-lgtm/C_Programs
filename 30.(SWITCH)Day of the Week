@@ -26,6 +26,8 @@ int main()
         case 7:
         printf("Saturday",7);
         break;
+        default:
+        printf("Invalid Choice!");
     }
     
     return 0;
